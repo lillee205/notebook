@@ -1,0 +1,13 @@
+node_modules
+.idea/
+.project
+.classpath
+.gradle
+build
+bin/
+.cache
+.settings
+*/out
+logs
+derby.log
+package-lock.json
