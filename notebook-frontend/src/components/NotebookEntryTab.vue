@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'EntryTab',
+  name: 'NotebookEntryTab',
   props: {
     title: String,
     contents: String

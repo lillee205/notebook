@@ -31,7 +31,7 @@ public class NotebookController {
     }
 
     @PutMapping(value = "/entries/{entryId}")
-    public void updateEntry(@RequestBody Entry entry, @PathVariable Integer entryId) {
+    public void updateEntry(@RequestBody Entry entry) {
         notebookRepository.save(entry);
     }
 
